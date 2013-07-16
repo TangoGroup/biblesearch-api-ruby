@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = BibleSearch::VERSION
 
-  gem.add_dependency "oj"
   gem.add_dependency "hashie"
   gem.add_dependency "httparty"
   gem.add_development_dependency 'vcr'
